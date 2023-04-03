@@ -3,6 +3,7 @@
     box-sizing: border-box;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 .spazio{
@@ -31,6 +32,7 @@
 /* testata articolo */
 h1{
     font-weight: 600;
+    font-size: 40px;
 }
 
 .dati-articolo{
@@ -51,8 +53,30 @@ h1{
     font-size: 10px;
 }
 
-/* bonus:
-.centrare {
-    margin-left: 30px;
-    margin-right: 30px;
+/* tabella */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr th:nth-child(-n + 2) {
+    width: 25%;
+}
+
+thead{
+    background-color: rgb(32,169,229);
+    color: white;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(177,229,242);
+}
+
+
+
+/* .centrare {
+    margin-left: 20%;
+    margin-right: 20%;
 } */
