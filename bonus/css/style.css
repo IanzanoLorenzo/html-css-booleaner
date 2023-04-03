@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.spazio{
+    padding-top: 20px;
+}
+
+.spazio-plus{
+    padding-top: 40px;
+}
+
+.evidenzia{
+    background-color: yellow;
+}
+
+/* header */
+.banner{
+    background-color: rgb(78,160,255);
+    background-image: url(../img/pattern.png);
+    background-size: 300px;
+    padding: 0;
+}
+
+#logo{
+    width: 150px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+/*main*/
+/* testata articolo */
+h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.dati-articolo{
+    color: rgb(148, 142, 142);
+    font-weight: 600;
+}
+
+#autore{
+    text-decoration: none;
+    color: rgb(80,187,234);
+}
+
+#data{
+    font-size: 13px;
+}
+
+.crediti{
+    font-size: 10px;
+}
+
+/* tabella */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr th:nth-child(-n + 2) {
+    width: 25%;
+}
+
+thead{
+    background-color: rgb(32,169,229);
+    color: white;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(177,229,242);
+}
+
+/* footer */
+
+footer>div>h2{
+    color: rgb(126,126,126);
+}
+
+.consigliati{
+    width: calc(312px / 2);
+    height: calc(208px / 2);
+    background-size: 100%;
+    color: white;
+    box-sizing: content-box;
+}
+
+.primo{
+    background-image: url(../img/monitor.jpg);
+    margin: 20px;
+}
+
+.secondo{
+    background-image: url(../img/graph.jpg);
+    margin: 20px;
+}
+
+.centrare {
+    margin-left: 20%;
+    margin-right: 20%;
+}
