@@ -1,6 +1,16 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.spazio{
+    padding-top: 20px;
+}
+
+.evidenzia{
+    background-color: yellow;
 }
 
 /* header */
@@ -8,6 +18,7 @@
     background-color: rgb(78,160,255);
     background-image: url(../img/pattern.png);
     background-size: 300px;
+    padding: 0;
 }
 
 #logo{
@@ -17,9 +28,9 @@
 }
 
 /*main*/
+/* testata articolo */
 h1{
     font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .dati-articolo{
@@ -30,6 +41,14 @@ h1{
 #autore{
     text-decoration: none;
     color: rgb(80,187,234);
+}
+
+#data{
+    font-size: 13px;
+}
+
+.crediti{
+    font-size: 10px;
 }
 
 /* bonus:
